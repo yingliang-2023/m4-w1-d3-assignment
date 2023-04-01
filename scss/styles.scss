@@ -21,6 +21,41 @@ FontAwesome
   padding: 0;
   box-sizing: border-box;
   font-family: "Bitter";
+  text-align: center;
+  margin: auto;
 }
 
 $max-width: 80em;
+
+.header{
+  color:white;
+  background:linear-gradient(90deg,rgb(24, 121, 162),black);
+  padding:5%;
+}
+
+#selections{
+  margin:0.5%;
+}
+
+img{
+  width: 300px;
+  height: 200px;
+  display: inline;
+  overflow: hidden;
+  float: none;
+  margin-left:20px;
+  margin-top: 100px;;
+}
+
+li{
+  list-style: none;
+  display: inline-block;
+}
+
+.name{
+  li{
+    width: 320px;
+    color: aquamarine;
+  }
+  
+}
